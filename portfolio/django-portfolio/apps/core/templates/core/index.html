@@ -2,31 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="{% static 'core/css/styles.css' %}">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1>Hello! I'm <span>Deo</span></h1>
+        <p>Welcome to my pink-themed portfolio ✨</p>
     </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is a brief introduction about myself and my work.</p>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <p>Here are some of the projects I have worked on:</p>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
-        </section>
-    </main>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a student who loves technology and exploring new things. 
+            This is my simple pink portfolio showcasing my skills and projects.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic Java</li>
+            <li>Problem Solving</li>
+        </ul>
+     </section>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Short description of your first project.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Short description of your second project.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Short description of your third project.</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2023 My Portfolio</p>
+        <p>© 2025 Deo — My Pink Portfolio</p>
     </footer>
-</body>
-</html>
